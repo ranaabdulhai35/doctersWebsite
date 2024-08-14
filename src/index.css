@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vector{
+    background-image: url(./assits/Vectorvector.png);
+    background-position: 50% 0%;
+    background-size: contain;
+}
