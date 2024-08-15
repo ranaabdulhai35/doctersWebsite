@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+   background-color:  #ECECEC ;
+}
+
 .vector{
     background-image: url(./assits/Vectorvector.png);
     background-position: 50% 0%;

@@ -43,5 +43,26 @@ const AllImpinfo = [
     description: "Information about surgical procedures and treatments.", // Add description
   },
 ];
+   
+  export const AllImpinfo2 = [
+  {
+    id: 1, // Generate unique IDs if needed (see explanation below)
+    profileName: "MysteriousWanderer42",
+    description: "Lost in the labyrinth of thoughts, seeking solace in the echoes of silence. A wanderer of dreams, chasing the horizon's elusive embrace.",
+    img: "https://loremflickr.com/320/320/girl"
+  },
+  {
+    id: 2, // Generate unique IDs if needed (see explanation below)
+    profileName: "StarryEyedSeeker",
+    description: "With a heart full of stardust and a soul hungry for adventure, /n I explore the universe within and beyond. A dreamer searching for cosmic connections.",
+    img: "https://loremflickr.com/320/320/girl"
+  },
+  {
+    id: 3, // Generate unique IDs if needed (see explanation below)
+    profileName: "SilentObserver",
+    description: "Observing the world from a quiet corner, finding beauty in the ordinary and magic in the unseen. A silent witness to life's unfolding tapestry.",
+    img: "https://loremflickr.com/320/320/girl"
+  }
+];
 
 export default AllImpinfo;
