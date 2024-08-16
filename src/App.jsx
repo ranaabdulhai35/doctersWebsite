@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import Card2 from './components/Card2'
 import Card3 from './components/Card3'
 import SearchBar from './components/SearchBar'
+import Footer from './components/footer'
 function App() {
   return (
     <div  className='max-h-screen'>
@@ -18,6 +19,7 @@ function App() {
       <Card2/>
       <Card3/>
       <SearchBar/>
+      <Footer/>
     </div>
   )
 }

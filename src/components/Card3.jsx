@@ -91,23 +91,23 @@ const cardData = [
 function Card3() {
   return (
    
-      <div className="sm:grid lg:grid-cols-3 mt-4 pt-2 sm:grid-cols-2 gap-10 justify-items-center ">
+      <div className="sm:grid lg:grid-cols-3  py-6 mt-4 pt-2 sm:grid-cols-2 gap-10 justify-items-center ">
         {cardData.map((card) => (
           <div
             key={card.id}
-            className="  transition duration-300 max-w-sm rounded overflow-hidden bg-white  shadow-lg"
+            className="  transition duration-300 m-5 max-w-sm rounded-lg overflow-hidden bg-white  shadow-lg"
           >
-            <div className="py-4 px-8">
+            <div className="py-8 m-4 px-4">
               <img src={card.img} className="rounded-full h-12 w-12 mb-4" alt={card.title} />
               <a href="#">
                 <h4 className="text-lg mb-3 font-semibold">{card.title}</h4>
               </a>
               <p className="mb-2 text-sm text-gray-600">{card.description}</p>
 
-              <div className="flex mt-4 items-center text-xs space-x-2">
-                <span className="text-gray-500">{card.category}</span>
-                <span>&nbsp;•&nbsp;</span>
-                <span className="text-gray-500">{card.subcategory}</span>
+              <div className="flex mt-4 flex-col text-xs space-x-2">
+                <span className="text-[#007E85] text-md  ">{card.category}</span>
+                
+                <span className="text-gray-500 m-0">{card.subcategory}</span>
               </div>
             </div>
           </div>
