@@ -11,3 +11,8 @@ html{
     background-position: 50% 0%;
     background-size: contain;
 }
+@media (max-width: 1030px){
+    .right-5{
+        width: 100%;
+    }
+}

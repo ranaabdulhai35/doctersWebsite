@@ -15,8 +15,17 @@ function App() {
       <HomeCoponent/>
       <Stats/>
       <Hero/>
+      <div className='text-center' > <h2 className='text-2xl text-[#007E85] font-bold' >Services we provide </h2>
+      <p className='mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
+      </div>
       <Card1/>
+      <div className='text-center my-20' > <h2 className='text-2xl text-[#007E85] font-bold' >meet our previous clints </h2>
+      <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
+      </div>
       <Card2/>
+      <div className='text-center my-20' > <h2 className='text-2xl text-[#007E85] font-bold' >Testimonial </h2>
+      <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
+      </div>
       <Card3/>
       <SearchBar/>
       <Footer/>

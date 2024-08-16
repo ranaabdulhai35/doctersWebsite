@@ -6,7 +6,7 @@ function Navbar() {
    const [showMenu , setShowMenu] = useState(false)
    const linksCss = `flex  flex-col lg:flex-row lg:absolute lg:right-10 filter  ${
     showMenu
-      ? '   bg-green-500/5 z-20 '
+      ? '    z-20 '
       : ' sm:hidden max-sm:hidden md:hidden lg:flex max-lg:flex NAV-ANI'
   }`
   const h1 = 'text-gray-900 text-2xl font-semibold mx-3 hover:text-[#007E85] hover:border-b-2 hover:border-[#007E85] transition duration-500 cursor-pointer focus:text-[#007E85] focus:border-b-2';

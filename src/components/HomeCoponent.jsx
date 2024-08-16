@@ -5,7 +5,7 @@ import Aftar from './Aftar'
 function HomeCoponent() {
   return (
     <>
-    <div className='flex lg:flex-row flex-col-reverse items-center justify-between mx-14 ' >
+    <div className='flex lg:flex-row flex-col-reverse items-center justify-between mx-14 main-box gap-[2rem]' >
     <div  className=' max-w-[457px] top-64   left-20'><h3 className='text-2xl font-semibold'>Providing Quality <span className='text-[#007E85] text-2xl font-semibold'>Healthcare</span> for A <br /> <span className='text-green-600 text-2xl  font-semibold' >Brighter</span> and <span  className='text-green-600 text-2xl  font-semibold'>Healthy </span> future</h3>
     <div className=' w-[500] text-sm '>
     At our hospital, we are dedicated to providing exceptional medical care to our patients and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry
@@ -25,7 +25,7 @@ function HomeCoponent() {
    
     </div>
     {/* 2nd compo */}
-    <div className='flex lg:flex-row-reverse flex-col-reverse items-center justify-between mx-14 ' >
+    <div className='flex lg:flex-row-reverse flex-col-reverse items-center justify-between mx-14 gap-[2rem]' >
     <div  className=' max-w-[457px] top-64   left-20'><h3 className='text-2xl font-semibold'>Providing Quality <span className='text-[#007E85] text-2xl font-semibold'>Healthcare</span> for A <br /> <span className='text-green-600 text-2xl  font-semibold' >Brighter</span> and <span  className='text-green-600 text-2xl  font-semibold'>Healthy </span> future</h3>
     <div className=' w-[500] text-sm '>
     At our hospital, we are dedicated to providing exceptional medical care to our patients and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry
