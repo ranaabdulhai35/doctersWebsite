@@ -9,14 +9,14 @@ function Navbar() {
       ? '    z-20 '
       : ' sm:hidden max-sm:hidden md:hidden lg:flex max-lg:flex NAV-ANI'
   }`
-  const h1 = 'text-gray-900 text-2xl font-semibold mx-3 hover:text-[#007E85] hover:border-b-2 hover:border-[#007E85] transition duration-500 cursor-pointer focus:text-[#007E85] focus:border-b-2';
+  const h1 = 'text-gray-900 text-2xl mt-2 font-semibold mx-3 hover:text-[#007E85] hover:border-b-2 hover:border-[#007E85] transition duration-500 cursor-pointer focus:text-[#007E85] focus:border-b-2';
 
   return (
     <nav className='mt-5 p-6 flex flex-col lg:flex-row rounded-md z-20  mx-5'>
       <div className='flex flex-row mb-4 md:mb-0 lg:mr-16'>
         <img className='-bottom-5' src={Logo} alt="daf" />
-        <div className='text-[#007E85] text-3xl font-bold'>Health</div>
-        <div className='text-green-600  text-3xl font-bold'>care</div>
+        <div className='text-[#007E85] mt-2 tracking-wider text-3xl font-bold'>Health</div>
+        <div className='text-green-600  mt-2 tracking-wider text-3xl font-bold'>care</div>
       </div>
 
       <div className={ linksCss }>

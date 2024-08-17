@@ -4,12 +4,16 @@
 
 html{
    background-color:  #ECECEC ;
+   font-family: 'Lato';
 }
 
 .vector{
     background-image: url(./assits/Vectorvector.png);
     background-position: 50% 0%;
     background-size: contain;
+}
+.ortho1{
+    background-image: url(./assits/ortho1.png);
 }
 @media (max-width: 1030px){
     .right-5{
