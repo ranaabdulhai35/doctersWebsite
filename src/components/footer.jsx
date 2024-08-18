@@ -56,11 +56,13 @@ function Footer() {
   return (
     <div>
       <div className="bg-gray-100">
-        <div className="pt-20 px-4 sm:px-6 bg-[#007E85] text-white flex flex-wrap justify-center flex justify-between">
-          <div className="flex flex-row mb-4 md:mb-0 lg:mr-16">
-            <img className="-bottom-5 aspect-square h-14 w-14" src={Logo} alt="daf" />
-            <div className="text-3xl mt-2 font-bold">Health</div>
-            <div className="text-3xl mt-2 font-bold">care</div>
+        <div className="pt-20 px-4 sm:px-6 bg-[#007E85] text-white justify-items-center grid md:grid-cols-5">
+          <div className="  mb-4 md:mb-0 lg:mr-16">
+           
+            <span className="text-3xl mt-2 flex justify-center items-center font-bold">  <img className="-bottom-5 aspect-square h-14 w-14" src={Logo} alt="daf" /> Healthcare</span>
+            
+            
+            <div className=' w-[32ch] ml-[5rem]' >Copyright © 2022 BRIX Templates | All Rights Reserved </div>
           </div>
 
           <div className="p-5">

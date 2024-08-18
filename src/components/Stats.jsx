@@ -6,6 +6,7 @@ function Stats() {
   
   return (
 <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<h3 className='text-center text-lg text-theme1 font-bold mt-7 mb-4' >Our Results in Numbers </h3>
     <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
         <div class="text-center md:border-r">
             <h6 class="text-4xl font-bold lg:text-5xl text-[#007E85] xl:text-6xl">99<span className='opacity-55'>%</span></h6>

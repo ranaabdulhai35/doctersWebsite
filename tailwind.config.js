@@ -6,14 +6,20 @@ export default {
   ],
   theme: {
     extend: {
-   borderRadius : {
-    custombr : 
-   ' 52% 48% 53% 47% / 71% 65% 35% 29%' 
-    
-   },
-   backgroundImage : {
-vector : './assits/Vectorvector.png'
-   }
+width :{
+card : '400px'
+},
+height :{
+  card : '500px'
+  },
+colors:{
+  theme1: `#007E85`
+
+},
+fontFamily :{
+// lato :[lato],
+// LexendTera : [Lexend]
+}
     },
   },
   plugins: [],

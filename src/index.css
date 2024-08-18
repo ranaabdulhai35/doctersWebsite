@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap');
 
 html{
    background-color:  #ECECEC ;
@@ -14,6 +19,9 @@ html{
 }
 .ortho1{
     background-image: url(./assits/ortho1.png);
+    /* background-size: cover; */
+    /* background-position: ; */
+   /* background-repeat: no-repeat ; */
 }
 @media (max-width: 1030px){
     .right-5{

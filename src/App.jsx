@@ -13,6 +13,7 @@ function App() {
     <div  className='max-h-screen'>
       <Navbar/>
       <HomeCoponent/>
+      
       <Stats/>
       <Hero/>
       <div className='text-center' > <h2 className='text-2xl text-[#007E85] font-bold' >Services we provide </h2>
