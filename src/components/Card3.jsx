@@ -90,12 +90,14 @@ const cardData = [
 
 function Card3() {
   return (
-   
-      <div className="grid lg:grid-cols-3  py-6 mt-4 pt-2 m-4 sm:grid-cols-2 gap-10 justify-items-center ">
+     <div className='w-[100%] items-center justify-center flex' >
+
+    
+      <div className="grid lg:grid-cols-3 gap-4 py-6 mt-4 pt-2  sm:grid-cols-2  justify-items-center ">
         {cardData.map((card) => (
           <div
             key={card.id}
-            className="  h-96 w-card  transition duration-300 m-5 max-w-sm rounded-lg  overflow-hidden bg-white  shadow-lg"
+            className="  h-96 w-card  transition duration-300  max-w-sm rounded-lg  overflow-hidden bg-white  shadow-lg"
           >
             <div className="py-8 m-4 px-4">
               <img src={card.img} className="rounded-full h-[80px] w-[80px] mb-4" alt={card.title} />
@@ -112,6 +114,7 @@ function Card3() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     
   );

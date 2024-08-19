@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/footer'
+import OrthoFindDoctor from '../components/OrthoFindDoctor'
+import OrthoHero from '../components/OrthoHero'
 function OrthoRoute() {
   return (
     <div className="h-screen w-full">
@@ -14,6 +16,8 @@ function OrthoRoute() {
         <button className='bg-transparent text-white text-xl border-2 ml-3 p-2 px-7 rounded-lg' >Learn More</button>
         </div>
     </div>
+    <OrthoFindDoctor />
+    <OrthoHero/>
     <Footer/> 
   </div>
   )
