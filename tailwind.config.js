@@ -17,8 +17,8 @@ colors:{
 
 },
 fontFamily :{
-// lato :[lato],
-// LexendTera : [Lexend]
+lato :["Lexend Tera"],
+body1 : ["Lato"]
 }
     },
   },
