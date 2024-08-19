@@ -10,13 +10,13 @@ import SearchBar from './components/SearchBar'
 import Footer from './components/footer'
 function App() {
   return (
-    <div  className='max-h-screen '>
+    <div  className='max-h-screen leading-relaxed items-center font-latoN '>
       <Navbar/>
       <HomeCoponent/>
       
       <Stats/>
       <Hero/>
-      <div className='text-center font-body1 ' > <h2 className='text-2xl text-[#007E85] font-bold' >Services we provide </h2>
+      <div className='text-center  ' > <h2 className='text-2xl text-[#007E85] font-bold' >Services we provide </h2>
       <p className='mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
       </div>
       <Card1/>

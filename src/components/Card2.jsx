@@ -50,7 +50,7 @@ import { AllImpinfo2 } from '../Data/AllI imp data';
 
 function Card2() {
   return (
-    <div className="grid grid-cols-1 justify-items-center mt-5  md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1  justify-items-center mt-5  md:grid-cols-2 lg:grid-cols-3 gap-4">
       {AllImpinfo2.map((info) => (
         <div key={info.id} className="max-w-sm p-8  relative bg-white border pt-4 w-card h-card border-gray-200 rounded-lg shadow ">
           {/* Profile Image */}
