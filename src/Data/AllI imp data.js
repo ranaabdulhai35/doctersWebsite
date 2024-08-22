@@ -64,5 +64,49 @@ const AllImpinfo = [
     img: "https://loremflickr.com/320/320/girl"
   }
 ];
-
+ 
+  export const ratingData = [
+  {
+    avatar: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Melissa Smith",
+    title: "Marketing Manager",
+    review: "I've been using XYZ for over a year now and their customer service is excellent! Whenever I have a question, the team is always available and willing to help. Highly recommend!",
+    rating: 5
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/83.jpg",
+    name: "John Doe",
+    title: "Software Engineer",
+    review: "This product is amazing! It has saved me so much time and effort. Highly recommend!",
+    rating: 4
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: "Emily Johnson",
+    title: "Designer",
+    review: "The user interface is so intuitive and easy to use. I love this product!",
+    rating: 5
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+    name: "David Brown",
+    title: "Developer",
+    review: "Great product with excellent features. Highly recommend it!",
+    rating: 4
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/women/91.jpg",
+    name: "Sarah Wilson",
+    title: "Marketing Analyst",
+    review: "The customer support is top-notch. They helped me with an issue I was having and resolved it quickly.",
+    rating: 5
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
+    name: "Michael Lee",
+    title: "Product Manager",
+    review: "This product has exceeded my expectations. It's a game-changer!",
+    rating: 5
+  }
+];
 export default AllImpinfo;

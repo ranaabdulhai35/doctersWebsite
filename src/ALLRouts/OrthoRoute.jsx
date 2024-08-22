@@ -3,6 +3,9 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/footer'
 import OrthoFindDoctor from '../components/OrthoFindDoctor'
 import OrthoHero from '../components/OrthoHero'
+import SearchBar from '../components/SearchBar.jsx'
+import RatingCard from '../components/RatingCard.jsx'
+import { ratingData } from '../Data/AllI imp data.js'
 function OrthoRoute() {
   return (
     <div className="h-screen w-full">
@@ -18,6 +21,22 @@ function OrthoRoute() {
     </div>
     <OrthoFindDoctor />
     <OrthoHero/>
+    <div className='flex justify-center items-center' >
+    <div className="grid grid-cols-1 max-w-[1200px] md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {ratingData.map((data) => (
+        <RatingCard
+          key={data.name}
+          avatar={data.avatar}
+          name={data.name}
+          title={data.title}
+          review={data.review}
+          rating={data.rating}
+          // You can add a rating prop if you want to display it
+        />
+      ))}
+    </div>
+    </div>
+    <SearchBar/>
     <Footer/> 
   </div>
   )

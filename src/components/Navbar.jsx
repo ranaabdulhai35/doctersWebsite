@@ -1,9 +1,10 @@
 
 import React from 'react';
 import Logo from '../assits/Logo.png';
-
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 function Navbar() {
+  const navigate = useNavigate()
    const [showMenu , setShowMenu] = useState(false)
    const linksCss = `flex items-center flex-col  lg:flex-row  max-lg:absolute lg:right-10 ${
     showMenu
@@ -11,7 +12,10 @@ function Navbar() {
       : ' sm:hidden max-sm:hidden  md:hidden lg:flex max-lg:flex NAV-ANI'
   }`
   const h1 = 'text-gray-900 text-2xl  font-semibold mx-3 hover:text-[#007E85] hover:border-b-2 hover:border-[#007E85] transition duration-500 cursor-pointer focus:text-[#007E85] focus:border-b-2';
-
+  // fx
+  function goToOrtho (){
+    navigate('/ortho')
+  }
   return (
     <div className='flex  lg:justify-center w-[100%]' >
      <nav className=' font-lato lg:min-w-[1200px] lg:max-w-[1400px] flex  flex-col justify-between lg:flex-row rounded-md z-20 '> 
@@ -22,8 +26,8 @@ function Navbar() {
       </div>
 
       <div className={ linksCss }>
-        <h1 className={`${h1} mb-2 md:mb-0`}>Home</h1>
-        <h1 className={h1}>Orthotist</h1>
+        <h1 className={`${h1} mb-2 md:mb-0`} onClick={()=>{navigate('/')}} >Home</h1>
+        <h1 className={h1} onClick={goToOrtho} >Orthotist</h1>
         <h1 className={h1}>Botox</h1>
         <h1 className={h1}>Equipments</h1>
         <h1 className={h1}>Locations</h1>

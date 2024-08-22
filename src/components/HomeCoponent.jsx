@@ -4,7 +4,7 @@ import doctor from '../assits/doctor.png'
 import Aftar from './Aftar'
 function HomeCoponent() {
   return (
-    <div className='flex flex-col mt-12 justify-center items-center'>
+    <div className='flex flex-col mt-12 justify-center font-latoN items-center'>
     <div className='flex lg:flex-row flex-col-reverse min-w-[1200px] max-w-[1400px] items-center justify-between  main-box gap-[2rem]' >
     <div  className=' max-w-[457px] top-64   left-20'><h3 className='text-2xl font-semibold'>Providing Quality <span className='text-[#007E85] text-2xl font-semibold'>Healthcare</span> for A <br /> <span className='text-green-600 text-2xl  font-semibold' >Brighter</span> and <span  className='text-green-600 text-2xl  font-semibold'>Healthy </span> future</h3>
     <div className=' w-[500] text-sm '>
