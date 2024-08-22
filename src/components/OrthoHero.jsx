@@ -3,7 +3,7 @@ import OrthoHeroImg from '../assits/OrthoHero.png'
 function OrthoHero() {
   return (
     <div className='flex justify-center items-center w-[100%] mt-14 ' >
-            <div className='flex flex-row max-lg:flex-col  min-w-[1200px] max-w-[1240px]    ' >
+            <div className='flex flex-row max-lg:flex-col  min-w-[1240px] max-w-[1240px]    ' >
                   <div className='flex items-center justify-center' > 
                     <div  className='font-latoB max-lg:text-center  max-lg:justify-center text-2xl   ' >
                     Bringing individualized <span className='text-theme1'> Healthcare </span> <span className='text-green-500' >Nationwide </span>
@@ -11,6 +11,7 @@ function OrthoHero() {
                     <p className='w-1/2 text-sm  ' >
                     At our hospital, we are dedicated to providing exceptional medical care to our patients and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry
                     </p>
+                    <button class="bg-[#007E85]  text-white rounded-sm p-1 mt-6 px-10">Appointment</button>
                     </div>
                     </div>
                  </div>
