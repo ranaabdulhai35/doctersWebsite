@@ -4,7 +4,12 @@ import diagnosisImage from './Container.png';
 import eyecareImage from './Container (3).png';
 import cardiologyImage from './Container (2).png';
 import surgeryImage from './Container (1).png';
-
+import EyeCoolLifting from './Eye cool lifting.png'
+import checkBoneRepair from './cheeekone repair 1.png' 
+import foreheadRepair from './forehead repair.png'
+import eyeZoneRepair from './eyezone repair2 1.png'
+import NAZOLABIAL from './nazola.png'
+import lipsCorrection from './lips correction 1.png'
 const AllImpinfo = [
   {
     id: 1,
@@ -109,4 +114,32 @@ const AllImpinfo = [
     rating: 5
   }
 ];
+
+ export const BotoxCard = [
+  {
+    img : EyeCoolLifting,
+    txt :'CRYO COOL LIFTING'
+  },
+  {
+    img : checkBoneRepair ,
+    txt: 'CheckBone repair'
+  },
+  {
+    img : foreheadRepair ,
+    txt: 'forehead correction'
+  },
+  {
+    img : eyeZoneRepair ,
+    txt : 'eye zone repair'
+  },
+  {
+    img : NAZOLABIAL ,
+    txt :'NAZOLABIAL REPAIR'
+  },
+  { img : lipsCorrection ,
+    txt : 'lips correction'
+ 
+  }
+
+ ] 
 export default AllImpinfo;

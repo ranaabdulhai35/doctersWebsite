@@ -16,10 +16,13 @@ function Navbar() {
   function goToOrtho (){
     navigate('/ortho')
   }
+  function goToBotox(){
+    navigate('/botox')
+  }
   return (
     <div className='flex  lg:justify-center w-[100%]' >
      <nav className=' font-lato lg:min-w-[1200px] lg:max-w-[1400px] flex  flex-col justify-between lg:flex-row rounded-md z-20 '> 
-      <div className='flex flex-row mb-4 items-center md:mb-0 ml-8 lg:mr-16'>
+      <div className='flex flex-row cursor-pointer mb-4 items-center md:mb-0 ml-8 lg:mr-16' onClick={()=>{navigate('/')}}>
         <img className='' src={Logo} alt="daf" />
         <div className='text-[#007E85] tracking-wider  text-3xl font-semibold'>Health</div>
         <div className='text-green-600   tracking-wider  text-3xl font-semibold'>care</div>
@@ -28,7 +31,7 @@ function Navbar() {
       <div className={ linksCss }>
         <h1 className={`${h1} mb-2 md:mb-0`} onClick={()=>{navigate('/')}} >Home</h1>
         <h1 className={h1} onClick={goToOrtho} >Orthotist</h1>
-        <h1 className={h1}>Botox</h1>
+        <h1 className={h1} onClick={goToBotox}  >Botox</h1>
         <h1 className={h1}>Equipments</h1>
         <h1 className={h1}>Locations</h1>
         <h1 className={h1}>HomeServices</h1> 

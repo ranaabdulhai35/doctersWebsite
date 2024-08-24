@@ -5,6 +5,7 @@ import {
     RouterProvider,
   } from "react-router-dom";
 import OrthoRoute from './ALLRouts/OrthoRoute';
+import Botox from './ALLRouts/Botox';
   const router = createBrowserRouter([
     {
       path: "/",
@@ -12,6 +13,10 @@ import OrthoRoute from './ALLRouts/OrthoRoute';
     },{
       path: "/Ortho",
       element: <OrthoRoute/>
+    },
+    {
+      path: "/Botox",
+      element: <Botox/>
     }
   ]);
   export default router
