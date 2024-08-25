@@ -24,6 +24,8 @@ html{
     background-image: url(./assits/ortho1.png);
   
 }
+
+
 @media (max-width: 1030px){
     .right-5{
         width: 100%;

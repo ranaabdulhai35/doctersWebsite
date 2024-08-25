@@ -3,12 +3,12 @@ import Botox2 from '../assits/Botox2.png'
 function BotoxOvrlappingImgCompo() {
   return (
     <div>
-        <div className='flex justify-center items-center h-[528px] ' >
+        <div className='flex  max-md:flex-col-reverse justify-center items-center h-[528px] ' >
             <div className=' max-w-[1200px]  flex flex-row  justify-evenly' >
                 <img src={Botox2} alt="overlapping img" />
             </div>
-            <div className='text-center flex flex-col justify-center items-center' >
-                <h3 className=' w-[40ch] text-xl text-center' >Ask your doctor
+            <div className='text-center flex  flex-col justify-center items-center' >
+                <h3 className=' md:w-[40ch]  text-xl text-center' >Ask your doctor
                     if they have BOTOX®
                     samples available</h3>
                     <p className='text-sm text-center w-[40ch]' >*Only your physician can determine if BOTOX® is appropriate

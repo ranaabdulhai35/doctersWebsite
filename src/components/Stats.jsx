@@ -5,7 +5,7 @@ function Stats() {
 
   
   return (
-<div class="px-4 py-16 mx-auto sm:max-w-xl min-w-[1200px] max-w-[1400px] md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<div class="px-4 py-16 mx-auto sm:max-w-xl  max-w-[1400px] md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 <h3 className='text-center text-lg text-theme1 font-bold mt-7 mb-4' >Our Results in Numbers </h3>
     <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
         <div class="text-center md:border-r">

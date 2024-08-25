@@ -5,7 +5,7 @@ import Aftar from './Aftar'
 function HomeCoponent() {
   return (
     <div className='flex flex-col mt-12 justify-center font-latoN items-center'>
-    <div className='flex lg:flex-row flex-col-reverse min-w-[1200px] max-w-[1400px] items-center justify-between  main-box gap-[2rem]' >
+    <div className='flex lg:flex-row flex-col-reverse lg:min-w-[1200px] max-w-[1400px] items-center justify-between  main-box gap-[2rem]' >
     <div  className=' max-w-[457px] top-64   left-20'><h3 className='text-2xl font-semibold'>Providing Quality <span className='text-[#007E85] text-2xl font-semibold'>Healthcare</span> for A <br /> <span className='text-green-600 text-2xl  font-semibold' >Brighter</span> and <span  className='text-green-600 text-2xl  font-semibold'>Healthy </span> future</h3>
     <div className=' w-[500] text-sm '>
     At our hospital, we are dedicated to providing exceptional medical care to our patients and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry
@@ -25,7 +25,7 @@ function HomeCoponent() {
    
     </div>
     {/* 2nd compo */}
-    <div className='flex lg:flex-row-reverse mt-12 min-w-[1200px] max-w-[1240px] flex-col-reverse items-center justify-between gap-[2rem]' >
+    <div className='flex lg:flex-row-reverse mt-12 lg:min-w-[1200px] max-w-[1240px] flex-col-reverse items-center justify-between gap-[2rem]' >
     <div  className=' max-w-[457px] top-64   left-20'><h3 className='text-2xl font-semibold'>Providing Quality <span className='text-[#007E85] text-2xl font-semibold'>Healthcare</span> for A <br /> <span className='text-green-600 text-2xl  font-semibold' >Brighter</span> and <span  className='text-green-600 text-2xl  font-semibold'>Healthy </span> future</h3>
     <div className=' w-[500] text-sm '>
     At our hospital, we are dedicated to providing exceptional medical care to our patients and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry

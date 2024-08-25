@@ -58,7 +58,7 @@ function Card1({ data }) {
 function CardGrid() {
   return (
     <div className='w-[100%] items-center justify-center flex'>
-    <div className="grid xl:grid-cols-3 min-w-[1200px] max-w-[1400px]  grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  justify-items-center gap-y-2">
+    <div className="grid xl:grid-cols-3 lg:min-w-[1200px] max-w-[1400px]  grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  justify-items-center gap-y-2">
       {AllImpinfo.map((item) => (
         <Card1 key={item.id} data={item} />
       ))}

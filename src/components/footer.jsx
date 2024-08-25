@@ -62,7 +62,7 @@ function Footer() {
             <span className="text-3xl mt-2 flex justify-center items-center font-bold">  <img className="-bottom-5 aspect-square h-14 w-14" src={Logo} alt="daf" /> Healthcare</span>
             
             
-            <div className=' w-[32ch] ml-[5rem]' >Copyright © 2022 BRIX Templates | All Rights Reserved </div>
+            <div className=' sm:w-[32ch] ml-[5rem]' >Copyright © 2022 BRIX Templates | All Rights Reserved </div>
           </div>
 
           <div className="p-5">

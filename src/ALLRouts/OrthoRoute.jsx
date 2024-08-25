@@ -24,7 +24,7 @@ function OrthoRoute() {
     <div className='flex items-center mt-10 justify-center' >
     <div className='' >
       <h2 className='text-2xl font-bold text-theme1 text-center ' >what our customers say</h2>
-    <p className='w-[80ch] text-center' >Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p></div>
+    <p className='md:w-[80ch] text-center' >Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p></div>
     </div>
     <div className='flex justify-center items-center' >
     <div className="grid grid-cols-1 max-w-[1000px] md:grid-cols-2 lg:grid-cols-3 mt-7 gap-x-9 gap-y-12 ">
