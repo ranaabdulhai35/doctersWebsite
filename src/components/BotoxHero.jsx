@@ -16,8 +16,13 @@ function BotoxHero() {
 
          </div>
     </div>
-    <div>
+    <div className='relative ' >
         <img className='w-[595px] h-[350px] ' src={ heroBotox} alt="HeroBotox" />
+        <div className='w-32 h-20 absolute bg-white rounded-xl -top-5 -right-5 ' >
+        </div>
+
+         <div className='w-32 h-20 absolute bg-theme1 rounded-xl top-0 -right-10 ' >
+        </div>
     </div>
 
 </div></div>
