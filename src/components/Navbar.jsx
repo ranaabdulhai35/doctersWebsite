@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div className='flex  lg:justify-center w-[100%]' >
      <nav className=' font-lato lg:min-w-[1200px] lg:max-w-[1400px] flex  flex-col justify-between lg:flex-row rounded-md z-20 '> 
-      <div className='flex flex-row cursor-pointer mb-4 items-center md:mb-0 ml-8 lg:mr-16' onClick={()=>{navigate('/')}}>
+      <div className='flex flex-row cursor-pointer mb-4 items-center md:mb-0 m mlg:mr-16' onClick={()=>{navigate('/')}}>
         <img className='' src={Logo} alt="daf" />
         <div className='text-[#007E85] tracking-wider  text-3xl font-semibold'>Health</div>
         <div className='text-green-600   tracking-wider  text-3xl font-semibold'>care</div>
