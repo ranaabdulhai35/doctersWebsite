@@ -31,7 +31,7 @@
 
 // export default Card1
 import React from 'react';
-import AllImpinfo from '../Data/AllI imp data'; // Assuming correct import path
+import AllImpinfo from '../data/allImpData'; // Assuming correct import path
 
 function Card1({ data }) {
   return (

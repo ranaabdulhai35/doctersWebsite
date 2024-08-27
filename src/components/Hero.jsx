@@ -1,5 +1,5 @@
 import React from 'react'
-import heroimg from '../assits/image placeholder.png'
+import heroimg from '../assets/image placeholder.png'
 function hero() {
   return (
     <div className='flex items-center justify-center' ><div class="relative flex flex-col items-center md:min-w-[1200px] md:max-w-[1400px] max-lg:px-4 mx-12  md:flex-row sm:px-6 p-8">

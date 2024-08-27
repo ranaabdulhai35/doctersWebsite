@@ -50,7 +50,7 @@
 
 // export default Footer
 import React from 'react';
-import Logo from '../assits/Logo.png';
+import Logo from '../assets/Logo.png';
 
 function Footer() {
   return (

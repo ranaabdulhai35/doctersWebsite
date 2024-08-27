@@ -42,11 +42,11 @@
 // }
 // export default Card2
 import React from 'react';
-import Twitter from '../assits/Twitter.png';
-import Facebook from '../assits/Facebook.png';
-import Instagram from '../assits/Instagram.png';
-import Linkedin from '../assits/Linkedin.png';
-import { AllImpinfo2 } from '../Data/AllI imp data';
+import Twitter from '../assets/Twitter.png';
+import Facebook from '../assets/Facebook.png';
+import Instagram from '../assets/Instagram.png';
+import Linkedin from '../assets/Linkedin.png';
+import { AllImpinfo2 } from '../data/allImpData';
 
 function Card2() {
   return (

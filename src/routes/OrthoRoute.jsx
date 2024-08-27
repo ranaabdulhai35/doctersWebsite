@@ -5,7 +5,7 @@ import OrthoFindDoctor from '../components/OrthoFindDoctor'
 import OrthoHero from '../components/OrthoHero'
 import SearchBar from '../components/SearchBar.jsx'
 import RatingCard from '../components/RatingCard.jsx'
-import { ratingData } from '../Data/AllI imp data.js'
+import { ratingData } from '../data/allImpData.js'
 function OrthoRoute() {
   return (
     <div className="h-screen w-full">
